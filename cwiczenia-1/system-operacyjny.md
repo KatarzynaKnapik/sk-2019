@@ -36,6 +36,10 @@ Konfiguracja połączenia sieciowego linuxik
 Schemat sieci
 -------------
 
+![alt schemat](cw_1_diagram_sieci.png)
+![alt schemat](cw_1_linux.png)
+![alt schemat](cw_1_windows.png)
+
 aby załączyć obrazek 
 
 ```markdown
