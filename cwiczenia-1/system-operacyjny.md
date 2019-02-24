@@ -27,7 +27,7 @@ Konfiguracja połączenia sieciowego linuxik
 
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| Adres IP      |10.0.2.15 | przydzielony przez DHCP |
+| Adres IP      |10.0.2.15 | przydzielony przez DHCP (ip addr show) |
 | Maska podsieci      | 255.255.255.0 |  |
 | Brama      | 10.0.2.2 | (ip route) |
 | DNS 1      | 62.179.1.62 | cat /etc/resolv.conf |
