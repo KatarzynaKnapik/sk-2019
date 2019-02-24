@@ -16,7 +16,7 @@ Konfiguracja połączenia sieciowego windows
 
 | Parametr | wartość           | komentarzu |
 | ------------- |:-------------:| -----:|
-| Adres IP      |192.168.0.11 | przydzielony przez DHCP |
+| Adres IP      |192.168.0.11 | przydzielony przez DHCP (ipconfig /all) |
 | Maska podsieci      | 255.255.255.0 |  |
 | Brama      | 192.168.0.1 |  |
 | DNS 1      | 62.179.1.62 |  |
