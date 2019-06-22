@@ -12,6 +12,7 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
  
  
  ROZWIĄZANIE:
+ ---
  
  Adres sieci: 172.22.128.0/17
  
@@ -28,19 +29,25 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
     
  VirtualBox komendy:
  PC 0 (router):
+ ```
  ip addr show
  ip addr add 172.22.160.3 dev enp0s3
  ip addr add 172.22.128.3 dev enp0s8
  echo 1 | sudo tee /proc/sys/net/ipv4/ip_forward
+ ```
  
  PC 1:
+ ```
  ip addr show
  ip addr add 172.22.160.1/23 dev enp0s3
  ip route add default via 172.22.160.3
+ ```
  
  PC 2:
+ ```
  ip addr add 172.22.128.1/19 dev enp0s3
  ip route add default via 172.22.128.3
+ ```
     
 ![diagram sieci](Diagram-cw_8_egzamin.png)
   
