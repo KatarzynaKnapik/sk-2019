@@ -28,6 +28,7 @@ Zaproponuj rozwiązanie spełniające poniższe wymagania:
     
     
  VirtualBox komendy:
+ 
  PC 0 (router):
  ```
  ip addr show
