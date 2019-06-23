@@ -83,6 +83,8 @@ ip route add 192.168.201.1 via 172.16.0.10
 reszta analogicznie…
 ```
 
+![diagram](zadanie_12.png)
+
 
 
 
